@@ -17,6 +17,11 @@ pipeline {
                         print "Deploying in Staging Area"
                   }
             }
+            stage('Deploy prod') {
+                  steps {
+                        print "Deploying in Production Area"
+                  }
+            }
             			            
       }
 }
